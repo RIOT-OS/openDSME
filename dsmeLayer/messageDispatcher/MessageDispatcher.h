@@ -233,14 +233,12 @@ public:
 
 private:
     long numTxGtsFrames = 0;
-    long numRxAckFrames = 0;
     long numRxGtsFrames = 0;
     long numUnusedTxGts = 0;
     long numUnusedRxGts = 0;
     long numUpperPacketsDroppedFullQueue = 0;
     long numUpperPacketsForCAP = 0;
     long numUpperPacketsForGTS = 0;
-    bool recordGtsUpdates = false;
 /* Statistics (END) --------------------------------------------------------- */
 };
 
